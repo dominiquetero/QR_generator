@@ -32,4 +32,8 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');
+
+    Route::get('/qr_codes', function () {
+        return Inertia::render('QrGenerator');
+    })->name('qr_code');
 });
