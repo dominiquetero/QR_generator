@@ -258,11 +258,7 @@ const qrCodes = ref([]);
 
 <template>
   <AppLayout title="QR Generator">
-        <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                QR Generator
-            </h2>
-        </template>
+        
   <div class="p-4">
     <div class="flex flex-col items-center justify-center">
       <div class="flex items-center justify-center w-full p-4">
