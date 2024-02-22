@@ -183,6 +183,7 @@ const qrCodes = ref([]);
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
+
     };
 
     const handleMouseDown = (event, index) => {
@@ -258,7 +259,6 @@ const qrCodes = ref([]);
 
 <template>
   <AppLayout title="QR Generator">
-        
   <div class="p-4">
     <div class="flex flex-col items-center justify-center">
       <div class="flex items-center justify-center w-full p-4">
@@ -371,4 +371,3 @@ const qrCodes = ref([]);
   object-fit: cover;
 }
 </style>
- 
